@@ -1,0 +1,21 @@
+1. touch myfile   # creates a file named myfile
+
+2. vim myfile     # opens myfile with vim(vi improved) editor
+
+3. Add content to the myfile by pressing i key, which enters into the insert mode
+
+    Name: Puttaparthi Vishnu Kumar Reddy	
+    Address: Dharmavaram, Anantapur, Andhra Pradesh, India
+    email: vishnukumar650@gmail.com
+    phone: 9908971155
+    Blood Group: O+
+  
+   press ':wq' without quotes for write and quit
+
+4. grep -i name myfile && grep -i phone myfile
+   which outputs
+	Name: Puttaparthi Vishnu Kumar Reddy
+	phone: 9908971155
+   to the console or terminal screen
+	
+    
